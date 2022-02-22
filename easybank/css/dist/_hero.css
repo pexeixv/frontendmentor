@@ -1,0 +1,110 @@
+.main {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_content {
+  height: 100vh;
+  display: flex;
+  width: 40%;
+  align-self: flex-start;
+  width: max-content;
+}
+.main_text {
+  margin: auto;
+  padding-left: 7em;
+  max-width: 600px;
+  width: max-content;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main_desc {
+  margin: 1em 0 2em;
+}
+.main_title {
+  font-size: clamp(2rem, 5vmax, 3.7rem);
+}
+.main_desc {
+  font-size: clamp(0.8rem, 2vmax, 1.2rem);
+  width: 42ch;
+}
+.main_btn {
+  font-size: clamp(0.8rem, 2vmax, 1.2rem);
+}
+.main_hero {
+  width: 50%;
+  background: url(../img/my2.svg) no-repeat center center/cover;
+  background-position: bottom left;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.main_image {
+  background: url(../img/my1.png) no-repeat center center/cover;
+  background-position: bottom left;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1125px) {
+  .main_content {
+    width: 30%;
+  }
+  .main_text {
+    padding-left: 2em;
+    max-width: 500px;
+  }
+  .main_hero {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main_image {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 50vh;
+    margin-bottom: 4em;
+  }
+  .main_content {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .main_text {
+    height: max-content;
+    padding: 0 2em;
+  }
+  .main_desc {
+    max-width: 450px;
+    padding: 0 0.5em;
+    margin: 1em auto 2em;
+  }
+  .main_hero {
+    display: none;
+  }
+  .main_hero-mobile {
+    margin: auto;
+    background: url(../img/bg-intro-mobile.svg) no-repeat center center/cover;
+    background-position: left bottom;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main_image-mobile {
+    background: url(../img/image-mockups.png) no-repeat center center/cover;
+    background-position: center bottom;
+    width: 65%;
+    height: 100%;
+  }
+}

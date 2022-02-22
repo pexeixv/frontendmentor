@@ -1,0 +1,44 @@
+.art
+    position: relative
+
+.art_inner
+    height: 90vh
+    display: flex
+    & > *
+        flex: 1
+        height: 100%
+
+.art_left
+    background: url('../images/illustration-phones.svg') no-repeat center center/contain
+
+.art_background
+    background: $blueGradient
+    z-index: -1
+    border-radius: 0 5rem 0 5rem
+    height: 400px
+    width: 100%
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -65%)
+    &::after
+        content: ''
+        background: url('../images/bg-pattern-circles.svg') no-repeat bottom left/contain
+        height: 100%
+        width: 100%
+        position: absolute
+        background-size: 50%
+
+.art_right
+    display: flex
+    flex-direction: column
+    justify-content: center
+    color: $white
+    gap: 1em
+
+.art_title
+    font-size: 2.3rem
+
+.art_desc
+    font-size: 1.1rem
+    line-height: 1.6

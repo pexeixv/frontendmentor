@@ -1,0 +1,31 @@
+.heroWrapper
+    width: 100%
+    height: calc(100vh-60px)
+    background: color(pri)
+    margin-bottom: 12em
+
+.hero
+    display: flex
+    width: 90%
+    height: 70vh
+    align-items: center
+    justify-content: space-between
+    &_text
+        color: color(neu3)
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+        width: 60%
+    &_title
+        font-size: 3.5rem
+    &_desc
+        margin: 0.5em 0 1em
+    &_image
+        width: 50%
+        align-self: flex-end
+        display: flex
+        justify-content: flex-end
+        img
+            transform: translateY(70px)
+            width: 70%

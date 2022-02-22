@@ -1,0 +1,34 @@
+.headerWrapper
+    width: 100%
+    height: 60px
+
+header
+    height: 100%
+    display: flex
+    justify-content: space-between
+    width: 100%
+    align-items: center
+.nav
+    display: flex
+    &_link
+        color: color(neu2)
+        text-transform: uppercase
+        padding: 0.4em 1em
+        transition: $transition
+        & + &
+            margin-left: 1em
+        &:hover
+            color: color(neu1)
+        &-emp
+            outline: 1px solid color(neu1)
+            color: color(neu1)
+            &:hover
+                background: color(neu1)
+                color: color(neu3)
+
+.hamburger
+    display: none
+    cursor: pointer
+
+.headerWrapper header nav.show
+    display: flex

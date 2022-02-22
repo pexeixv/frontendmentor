@@ -1,0 +1,19 @@
+.footer
+    border-top: 1px solid grey
+    padding-top: 1.5em
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    grid-gap: 2em
+    &_links
+        margin-bottom: 2em
+    &_title
+        font-size: 1.2rem
+        margin-bottom: 0.8em
+    &_link
+        display: block
+        width: max-content
+        text-transform: uppercase
+        margin-bottom: 0.5em
+        transition: $transition
+        &:hover
+            text-decoration: underline

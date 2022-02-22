@@ -1,0 +1,42 @@
+.testi
+    padding: 5em 0
+
+.testi_inner
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.testi_grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 3em
+
+.testi_title
+    text-transform: uppercase
+    font-size: 1.5rem
+    margin: 3em 0
+
+.testi_card
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 1em
+
+.testi_image
+    border-radius: 100%
+    height: 80px
+
+.testi_text
+    text-align: center
+
+.testi_name
+    font-size: 1.6rem
+    margin-top: 1em
+
+@media screen and ( max-width: 930px )
+    .testi_grid
+        grid-template-columns: 1fr
+        grid-gap: 5em
+    .testi_card
+        width: 90%
+        max-width: 400px

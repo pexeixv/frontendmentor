@@ -1,0 +1,6 @@
+$colors: ("pri": hsl(256, 26%, 20%), "sec": hsl(216, 30%, 68%), "neu1": hsl(270, 9%, 17%), "neu2": hsl(273, 4%, 51%), "neu3": hsl(0, 0%, 98%))
+
+$transition: all 300ms ease-in-out
+
+@function color($arg)
+    @return map-get($colors, $arg)

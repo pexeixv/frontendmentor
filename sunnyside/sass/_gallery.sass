@@ -1,0 +1,27 @@
+.gallery
+
+.gallery_grid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    min-height: 400px
+
+.gallery_image
+    height: 100%
+    width: 100%
+
+.milk
+    background: url('../images/desktop/image-gallery-milkbottles.jpg') no-repeat center center/cover
+.plate
+    background: url('../images/desktop/image-gallery-orange.jpg') no-repeat center center/cover
+.cone
+    background: url('../images/desktop/image-gallery-cone.jpg') no-repeat top center/cover
+.cubes
+    background: url('../images/desktop/image-gallery-sugarcubes.jpg') no-repeat top center/cover
+
+@media screen and ( max-width: 930px )
+    .gallery_grid
+        grid-template-columns: 1fr 1fr
+    .gallery_image
+        width: 100%
+        height: unset
+        aspect-ratio: 1/1

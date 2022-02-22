@@ -1,0 +1,61 @@
+.footerWrapper
+    background: #2d314e
+
+.footer
+    height: 9.5rem
+    padding: 2em 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    color: white
+    &_left
+        height: 100%
+        display: grid
+        grid-template-columns: repeat(3,1fr)
+        grid-gap: 5.5em
+        &1
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .social + .social
+                margin-left: 10px
+            img
+                filter: brightness(150%)
+    &_links
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &_link
+        width: max-content
+        color: white
+    &_right
+        height: 100%
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        justify-content: space-between
+
+@media screen and ( max-width: 700px )
+    .footer
+        padding: 2em 0
+        height: fit-content
+        flex-direction: column
+        &_right
+            margin-top: 1.5em
+            align-items: center
+            gap: 1em
+        &_left
+            height: max-content
+            display: block
+            &1
+                margin-bottom: 2em
+                gap: 2em
+                .socials
+                    width: max-content
+        &_links
+            align-items: center
+            height: fit-content
+            margin: 0
+            padding: 0
+        &_link
+            margin: 0.8em 0

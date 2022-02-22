@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  padding: 0.7em 1.7em;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  border-radius: 200px;
+  color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.header .nav_link {
+  font-size: 0.9rem;
+  margin: 0.3em;
+}
+
+.main {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_content {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  align-self: flex-start;
+}
+.main_text {
+  margin: auto;
+  padding-left: 2.2em;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main_desc {
+  margin: 1em 0 2em;
+}
+.main_title {
+  font-size: 3.7rem;
+}
+.main_desc {
+  font-size: 1.2rem;
+  width: 42ch;
+}
+.main_hero {
+  flex: 1;
+  background: url(../img/my2.svg) no-repeat center center/cover;
+  height: 100vh;
+}
+.main_hero img {
+  height: 700px;
+}
+
+.whyWrapper {
+  background: #f4f5f7;
+}
+
+.why_title {
+  font-size: 2.2rem;
+  margin-bottom: 0.3em;
+}
+
+.features {
+  margin: 5em auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5em;
+}
+
+.feature_title {
+  margin: 1em 0;
+}
+
+.articles_heading {
+  font-size: 2.2rem;
+  margin-bottom: 1em;
+}
+
+.article {
+  background: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.article_grid {
+  margin-bottom: 3.5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5em;
+}
+.article_image {
+  max-height: 300px;
+}
+.article_text {
+  padding: 1em;
+}
+.article_title {
+  margin: 0.3em 0;
+}

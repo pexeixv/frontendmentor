@@ -1,0 +1,108 @@
+.highlights
+    display: grid
+    grid-template-columns: 1fr 1fr
+
+.highlight
+    width: 100%
+    aspect-ratio: 3/2
+    background: $white
+
+.highlight-link
+    padding: 10em
+    display: flex
+    flex-direction: column
+    gap: 2.5em
+    justify-content: center
+    align-items: flex-start
+    .highlight_title
+        font-size: 3rem
+        color: $veryDarkDesaturatedBlue
+    .highlight_desc
+        word-wrap: break-word
+        color: $grayishBlue
+    .highlight_button
+        text-transform: uppercase
+        position: relative
+        &::after
+            position: absolute
+            left: 50%
+            bottom: 0
+            transform: translate(-50%,0)
+            content: ''
+            width: 110%
+            height: 7px
+            display: block
+            opacity: 0.3
+            border-radius: 100vh
+        &:hover::after
+            opacity: 0.6
+
+.highlight_button-yellow::after
+    background: $yellow
+.highlight_button-pink::after
+    background: $softRed
+
+.egg
+    background: url('../images/desktop/image-transform.jpg') no-repeat center center/cover
+.cup
+    background: url('../images/desktop/image-stand-out.jpg') no-repeat center center/cover
+.cherry
+    background: url('../images/desktop/image-graphic-design.jpg') no-repeat top center/cover
+.orange
+    background: url('../images/desktop/image-photography.jpg') no-repeat top center/cover
+
+.highlight-wo-link
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: flex-end
+    padding: 4em 12em
+    .highlight_title
+        font-size: 2rem
+        margin-bottom: 0.5em
+    .highlight_desc
+        text-align: center
+
+.cherry
+    color: $darkCyan
+.orange
+    color: $darkBlue
+
+@media screen and ( max-width: 1900px )
+    .highlight-link
+        padding: 7em
+
+@media screen and ( max-width: 1570px )
+    .highlight-link .highlight_title
+        font-size: 2rem
+
+@media screen and ( max-width: 1450px )
+    .highlight-link
+        padding: 5em
+        gap: 2em
+
+@media screen and ( max-width: 1260px )
+    .highlight-link
+        padding: 2em
+        gap: 1.5em
+        br
+            content: ''
+
+@media screen and ( max-width: 1210px )
+    .highlights
+        display: grid
+        grid-template-columns: 1fr
+    .highlight
+        aspect-ratio: 3/2
+    .mobile-order-1
+        order: 1
+    .mobile-order-2
+        order: 2
+    .mobile-order-3
+        order: 3
+    .mobile-order-4
+        order: 4
+    .mobile-order-5
+        order: 5
+    .mobile-order-6
+        order: 6

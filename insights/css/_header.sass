@@ -1,0 +1,21 @@
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 3rem
+    
+.nav
+    display: flex
+    align-items: center
+    &_link
+        transition: $trans
+        text-transform: uppercase
+        font-family: 'Barlow Condensed'
+        color: $vdb
+        font-weight: 700
+        &+&
+            margin-left: 2.5em
+        &-oof
+            color: $gb
+        &:hover
+            text-decoration: underline
