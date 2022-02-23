@@ -7,3 +7,5 @@
 1. [Loop](https://pexeixv.github.io/frontendmentor/loop)
 1. [Room](https://pexeixv.github.io/frontendmentor/room)
 1. [Sunnyside](https://pexeixv.github.io/frontendmentor/sunnyside)
+
+**Note**: Most of these projects were built in 2020, when I just started with frontend development. Pages may not be mobile responsive.
