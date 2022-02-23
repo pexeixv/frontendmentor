@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pexeixv/frontendmentor/testimonials)
-- Live Site URL: [Add live site URL here](https://fem.gavinpereira.in/testimonials)
+- Solution URL: [Github](https://github.com/pexeixv/frontendmentor/tree/main/testimonials)
+- Live Site URL: [fem.gavinpereira.in](https://fem.gavinpereira.in/testimonials)
 
 ## My process
 
