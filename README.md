@@ -8,6 +8,7 @@
 1. [Room](https://fem.gavinpereira.in/room)
 1. [Sunnyside](https://fem.gavinpereira.in/sunnyside)
 1. [Testimonials](https://fem.gavinpereira.in/testimonials)
+1. [QR](https://fem.gavinpereira.in/qr)
 
 **Note**: Most of these projects were built in 2020, when I just started with frontend development. Pages may not be mobile responsive.
 h
