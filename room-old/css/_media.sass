@@ -1,0 +1,71 @@
+@media (max-width:1050px)
+    html
+        width: 100vw
+    body
+        width: 100%
+        height: unset
+        // overflow-x: hidden
+    .wrapper
+        width: 100vw
+        grid-template-columns: 1fr
+        grid-template-areas: "nav" "main" "dark" "content" "light"
+        grid-template-rows: 500px 350px 300px 250px 300px
+        // grid-template-rows: 2fr 0.5fr 1fr 0.5fr 1fr
+        // grid-template-rows: 10fr 3fr 4fr 2fr 4fr
+        header
+            display: flex
+            justify-content: flex-start
+            grid-area: nav
+            position: relative
+            nav
+                padding-left: 2em
+                display: none
+                position: absolute
+                justify-content: space-evenly
+                transform: translateX(-25px)
+                align-items: center
+                background: white
+                width: 100%
+                height: 100px
+                top: 0
+                left: 0
+                a.links
+                    color: grey
+                    &:hover
+                        border-bottom: 3px solid grey
+
+            .fa-bars
+                display: inline
+            .logo
+                justify-self: center
+                flex: 1
+        main
+            grid-area: main
+        .light
+            grid-area: light
+        .content
+            grid-area: content
+        .dark
+            grid-area: dark
+        .light,.dark
+            width: 100%
+        header,main,.content,.light,.dark
+            width: 100%
+
+    .controls
+        display: flex
+        position: absolute
+        bottom: 0
+        left: unset
+        right: 0
+        .control
+            height: 80px
+            width: 80px
+
+    .wrapper header nav.show
+        display: flex
+        i.fa-bars
+            color: gray
+
+    .hamburger
+        display: flex
