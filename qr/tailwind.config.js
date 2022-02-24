@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         outfit: ['Outfit', 'sans-serif']
       },
+      minHeight: {
+        available: '-webkit-fill-available'
+      }
     },
   },
   plugins: [],
