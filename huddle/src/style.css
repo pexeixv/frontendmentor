@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base{
+    *{
+        @apply transition-all duration-300 delay-[0]
+    }
+
+    /* *{@apply outline-red-700 outline outline-[1px]} */
+}
