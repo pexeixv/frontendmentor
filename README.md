@@ -11,6 +11,8 @@
 1. [QR](https://fem.gavinpereira.in/qr)
 1. [Base](https://fem.gavinpereira.in/base)
 1. [NFT](https://fem.gavinpereira.in/nft)
+1. [Huddle](https://fem.gavinpereira.in/huddle)
+1. [Column](https://fem.gavinpereira.in/column)
 
 **Note**: Most of these projects were built in 2020, when I just started with frontend development. Pages may not be mobile responsive.
 h
