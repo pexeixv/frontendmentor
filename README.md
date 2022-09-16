@@ -13,6 +13,7 @@
 1. [NFT](https://fem.gavinpereira.in/nft)
 1. [Huddle](https://fem.gavinpereira.in/huddle)
 1. [Column](https://fem.gavinpereira.in/column)
+1. [Proof](https://fem.gavinpereira.in/proof)
 
 **Note**: Most of these projects were built in 2020, when I just started with frontend development. Pages may not be mobile responsive.
 h
